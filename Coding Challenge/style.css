@@ -1,0 +1,92 @@
+*{
+  font-family: sans-serif;
+}
+
+
+
+
+/* Sfondo pagina */
+body{
+  background-image: url(immagini/background.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+/* Pannello di controllo */
+#pannello{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 3%;
+  border-radius: 2%;
+}
+
+/* Logo */
+header > img{
+  width: 20%;
+  margin-top: 5%;
+}
+
+/* Titolo */
+header > h1{
+  color: limegreen;
+}
+
+/* Posizionamento logo e titolo */
+header{
+  text-align: center;
+
+}
+
+/* Striscia di contenimento pulsanti */
+#menu{
+  background-color: limegreen;
+  padding: 1%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+main{
+  margin-top: 3%;
+}
+main > section{
+  color: white;
+  margin-left: 10%;
+  display: block;
+  width: 1000px;
+  margin-bottom:3%;
+}
+
+main h2{
+  display: inline;
+}
+
+main h2::after{
+  <input type: checkbox>
+}
+
+
+#first-charge{
+  border-radius: 7px 7px 7px 7px;
+  height: 30px;
+  background-color: orange;
+  width: 30%;
+}
+
+#second-charge{
+  border-radius: 7px 7px 7px 7px;
+  height: 30px;
+  background-color: limegreen;
+  width: 60%;
+}
+
+#third-charge{
+  border-radius: 7px 7px 7px 7px;
+  height: 30px;
+  background-color: red;
+  width: 15%;
+}
