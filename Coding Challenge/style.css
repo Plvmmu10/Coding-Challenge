@@ -69,24 +69,23 @@ main h2::after{
   <input type: checkbox>
 }
 
+.charge{
+  border-radius: 7px;
+  height: 30px;
+}
+
 
 #first-charge{
-  border-radius: 7px 7px 7px 7px;
-  height: 30px;
   background-color: orange;
   width: 30%;
 }
 
 #second-charge{
-  border-radius: 7px 7px 7px 7px;
-  height: 30px;
   background-color: limegreen;
   width: 60%;
 }
 
 #third-charge{
-  border-radius: 7px 7px 7px 7px;
-  height: 30px;
   background-color: red;
   width: 15%;
 }
